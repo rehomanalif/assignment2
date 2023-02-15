@@ -1,0 +1,273 @@
+*{margin: 0;padding: 0;}
+body{width: 1270px;margin: auto;font-family: math;}
+
+/* navbar  */
+.header{
+    /* background-color: #ff900e4f; */
+}
+.logo {
+    width: 250px;
+    font-size: 24px;
+    font-family: math;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ff900e4f;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin: 15px;
+    font-size: 20px;
+    list-style: none;
+}
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+.menu li a:hover {
+    color: blue;
+}
+
+/* brand area  */
+.brandText {
+    width: 500px;
+    margin: auto;
+}
+
+.brandText h1 {
+    font-size: 37px;
+    text-align: center;
+    font-weight: 700;
+}
+.btn {
+    width: 25%;
+    margin: auto;
+}
+
+.btn button {
+    border: none;
+    background: #FF900E;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+section.brandArea {
+    margin-top: 30px;
+}
+
+.brandText p {text-align: center;margin-top: 15px;margin-bottom: 20px;width: 500px;color: #696262;}
+
+.brandImg img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+/* feature part  */
+section.feature {
+    display: flex;
+    margin-top: 60px !important;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.featureImg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.featureImg img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: .2s;
+}
+.featureImg img {
+    width: 100%;
+}
+.bolding{
+    font-weight: bold;
+    color: black;
+    font-family: -webkit-body;
+}
+.coloring{
+    color: #FF900E;
+}
+.featureText {
+    margin-left: 100px;
+    width: 60%;
+}
+
+.featureText h3 {
+    font-size: 35px;
+    width: 280px;
+    color: #7e7777;
+    margin-bottom: 12px;
+}
+.btn-now button {
+    border: none;
+    background: #ff900e;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 17px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.featureText p {
+    width: 500px;
+    color: #625959;
+}
+
+/* Experience part  */
+.tenYears{
+    background-color: #ff900e;
+    color: white;
+    line-height: 30px;
+    width: 185px;
+    padding: 25px 7px;
+    text-align: center;
+    margin-top: -60px;
+    margin-left: -70px;
+    position: relative;
+    z-index: 1;
+    border-radius: 7px;
+    transition: .5s;
+}
+.tenYears:hover {
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+section.experiencePart {
+    margin-top: 70px;
+    display: flex;
+}
+
+.sectionCard {
+    width: 70%;
+    margin-top: 15px;
+    background: white;
+    box-shadow: -1px -1px 10px 0px #c7c0c0c9;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.experienceSection {
+    margin-top: 35px;
+}
+
+.sectionCard p {
+    margin-top: 7px;
+    color: #5b5757;
+}
+.experienceImg img {
+    width: 100%;
+}
+
+.ex-text p {
+    width: 550px;
+    margin-top: 15px;
+    color: gray;
+}
+
+.ex-text h2 {
+    font-size: 30px;
+    width: 270px;
+    font-weight: 800;
+    display: flex;
+}
+
+.ex-text h2::before {
+    content: '';
+    border: 2px solid #ff900e;
+    width: 0px;
+    height: 65px;
+    margin-right: 10px;
+}
+.tenYears h2 {
+    font-size: 32px;
+}
+
+/* Fact section  */
+section.factSection {
+    margin-top: 50px;
+    background: #87ceeb40;
+    padding: 30px;
+}
+.factText {
+    width: 35%;
+    margin-bottom: 80px;
+}
+
+.factText h2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.factText p {
+    color: gray;
+    margin-top: 13px;
+}
+
+.factCardPart {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.factCard {
+    border: 1px solid #ff900e;
+    padding: 15px 15px;
+    text-align: center;
+    transition: .2s;
+}
+
+.factCard:hover {
+    cursor: pointer;
+    background: white;
+    transform: scale(1.2);
+}
+
+/* Sponsors part  */
+
+section.sponsorPart {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.sponsorText h1 {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.sponsorText p {
+    width: 450px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    color: gray;
+}
+
+.sponsorLogo img {
+    margin-left: 50px;
+}
+
+/* Footer  */
+.footer{
+    background: #FFF4E7;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin-bottom: 50px;
+}
