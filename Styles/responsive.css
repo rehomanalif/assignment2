@@ -1,0 +1,51 @@
+@media (max-width: 575.98px) { 
+    
+    body{
+        width: 575px;
+    }
+    nav.navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section.brandArea {
+        width: 100%;
+    }
+    
+    section.feature {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .featureImg {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .featureText {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    section.experiencePart {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sectionCard {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .experienceImg img {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .brandImg img {
+        width: 97%;
+        margin: auto;
+    }
+
+ }

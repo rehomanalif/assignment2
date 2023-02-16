@@ -263,6 +263,74 @@ section.sponsorPart {
     margin-left: 50px;
 }
 
+/* contact part  */
+section.contactUsPart {
+    margin-bottom: 50px;
+    background: #d2d2;
+    padding: 70px 0px;
+    border-radius: 10px;
+}
+
+.contactUs h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.contactUs h1::before {
+    content: '';
+    border: 2px solid #ff900e;
+    margin-right: 10px;
+}
+
+.contactUs {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.contactArea {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+input[type="email"] {
+    margin-bottom: 10px;
+    padding: 13px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+textarea {
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    height: 90px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.contactArea button {
+    width: 50%;
+    margin: auto;
+    border: none;
+    background: #ff900e;
+    color: white;
+    padding: 13px 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contactArea button:hover {
+    background: transparent;
+    color: #ff900e;
+    border: 1px solid #ff900e;
+    transition: .3s;
+}
+
 /* Footer  */
 .footer{
     background: #FFF4E7;
